@@ -1,6 +1,8 @@
 class Solution {
    public String mergeAlternately(String word1, String word2) {
     String newString = "";
+    String longerWord;
+    String shorterWord;
     int counter = 0;
     for (int i = 0; i < word1.length() && i < word2.length(); i++) {
         newString += word1.charAt(i);
@@ -11,16 +13,15 @@ class Solution {
     }
     if (word1.length() != word2.length()) {
         if (word1.length() > word2.length()) {
-            // counter = word1.length() - counter;
-            for (int i = counter; i < word1.length(); i++) {
-                newString += word1.charAt(i);
-            }
+            longerWord = word1;
+            shorterWord = word2;
         } else {
-            // counter = word2.length() - counter;
-            for (int i = counter; i < word2.length(); i++) {
-                newString += word2.charAt(i);
-            }
+            longerWord = word2;
+            shorterWord = word1;
         }
+        for (int i = counter; i < longerWord.length(); i++) {
+                newString += longerWord.charAt(i);
+            }
 
     }
     return newString;
