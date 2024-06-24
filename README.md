@@ -16,3 +16,8 @@ This repo is for the problems I have solved on LeetCode.
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/SarahEGreer/LeetCode/tree/master/0013-roman-to-integer) |
+| [1894-merge-strings-alternately](https://github.com/SarahEGreer/LeetCode/tree/master/1894-merge-strings-alternately) |
+# Two Pointers
+|  |
+| ------- |
+| [1894-merge-strings-alternately](https://github.com/SarahEGreer/LeetCode/tree/master/1894-merge-strings-alternately) |
