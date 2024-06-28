@@ -23,3 +23,10 @@ This repo is for the problems I have solved on LeetCode.
 |  |
 | ------- |
 | [1894-merge-strings-alternately](https://github.com/SarahEGreer/LeetCode/tree/master/1894-merge-strings-alternately) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/SarahEGreer/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+<!---LeetCode Topics End-->
